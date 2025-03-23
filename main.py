@@ -33,7 +33,7 @@ def callback_message(callback):
                                                    f"Укажите Вашу дату рождения в формате дд-мм-гггг")
     bot.register_next_step_handler(callback, check)
 
-
+# поменял
 def check(message):
     print(message)
 
